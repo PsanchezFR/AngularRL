@@ -1,11 +1,11 @@
-#INITIALIZE PROJECT
+# INITIALIZE PROJECT
 
 To initialize the project, just pull it, install npm / nodeJS (version > 6.X) and run "sudo npm install" in the folder.
 Then, start a localhost server.
 
 Documentation is here : https://angular.io/guide/quickstart
 
-GENERATED DOCUMENTATION_______________________________________________________
+## GENERATED DOCUMENTATION_______________________________________________________
 # AngularRL
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
