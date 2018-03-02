@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MenuTemplateComponent } from './menu-template.component';
+import {DataFieldTemplateComponent} from "../data-field-template/data-field-template.component";
 
 describe('MenuTemplateComponent', () => {
   let component: MenuTemplateComponent;
@@ -8,7 +9,7 @@ describe('MenuTemplateComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MenuTemplateComponent ]
+      declarations: [ MenuTemplateComponent, DataFieldTemplateComponent ]
     })
     .compileComponents();
   }));
