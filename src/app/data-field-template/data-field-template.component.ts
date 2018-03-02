@@ -1,13 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-data-field-template',
+  selector: 'dataField',
   templateUrl: './data-field-template.component.html',
   styleUrls: ['./data-field-template.component.css']
 })
 export class DataFieldTemplateComponent implements OnInit {
 
-  constructor() { }
+  parentMenu="test menu";
+  constructor() {
+  }
 
   ngOnInit() {
   }
