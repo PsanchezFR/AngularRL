@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'dataField',
+  selector: 'app-data-field-template',
   templateUrl: './data-field-template.component.html',
   styleUrls: ['./data-field-template.component.css']
 })
